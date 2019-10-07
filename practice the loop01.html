@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        // //bài 7
+        // let ut;
+        // ut="<table border='1' width='70px' cellpadding='1' cellspacing='1'>"
+        // for (var i=1;i<=100;i++)
+        // {
+        //     //console.log(i);
+        //     if (i%3==0 && i%5==0)
+        //     {
+        //         ut=ut +"<td>" +" FizzFuzz"+"</td>";
+        //     } else if (i%3==0)
+        //     {
+        //        ut=ut +"<td>"+" Fizz"+"</td>";
+        //     } else if (i%5==0)
+        //     {
+        //        ut=ut +"<td>"+" Fuzz"+"</td>";
+        //     } else
+        //     {
+        //         ut=ut+"<td>"+i+""+ "</td>";
+        //     }
+        //     ut=ut+"</tr>";
+        // }
+        // ut=ut+"</table>";
+        // document.write(ut);
+        //
+
+        //bài 1
+        // for (var i=1;i<100;i++)
+        // {
+        //     console.log(i);
+        //     //document.write("finish"+i)
+        //     if (i==99)
+        //     {
+        //         console.log( i+" finish");
+        //     }
+        // }
+
+        // bài 3
+        // var a=0;
+        // var b=1;
+        // var kq=b;
+        // for (var i=1;i<20;i++)
+        // {
+        //     console.log(kq);
+        //     kq=a+b;
+        //     a=b;
+        //     b=kq;
+        // }
+
+
+        //bài 4
+        // var a=0;
+        // var b=1;
+        // var kq=b;
+        // var count=0;
+        // //var sum;
+        // for (var i=1;i<20;i++)
+        // {
+        //     //console.log(kq);
+        //     kq=a+b;
+        //     a=b;
+        //     b=kq;
+        //     if (i%5==0 && count<1)
+        //     {
+        //         count++;
+        //         //sum=sum+i;
+        //         console.log(i);
+        //     }
+        // }
+
+        //bài 5
+        // var a=0;
+        // var b=1;
+        // var kq=b;
+        // let sum=0;
+        // for (var i=1;i<5;i++)
+        // {
+        //     kq=a+b;
+        //     a=b;
+        //     b=kq;
+        //     sum=sum+i;
+        // }
+        // console.log(sum);
+
+
+
+
+        // bài 6
+
+        let dem=0,i=1; //khái báo 2 biến dem = 0 và i=1
+        let tong=0; //khái báo biến tong =0
+        while ( dem<=29)// while là điều kiên của biến đếm chạy đến 30 là dừng
+        {
+            if (i%7==0) //nếu i chia hết cho 7
+            {
+                dem+=1; // biến đêm tăng lên 1 đơn vị khi điều kiện ở trên chia hết cho 7
+                tong+=i;// điều kiên i%7==0 thì tổng tăng lên
+            }
+            i+=1; //thoát ra khỏi điều kiệ if thì i bắt đầu tăng lên 1 và lặp đi đến bao giờ đếm lên đến 30
+        }
+        alert(dem);
+        alert("tổng của 30 số đầu tiên chia hết cho 7 là "+tong);
+
+
+    </script>
+</body>
+</html>

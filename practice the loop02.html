@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loop 02</title>
+</head>
+<body>
+    <script>
+        // bài 1
+        // var a=0;
+        // var b=1;
+        // var ax=b;
+        //
+        // for (var i=1;i<100;i++)
+        // {
+        //     ax=a+b;
+        //     a=b;
+        //     b=ax;
+        //     document.write("<br/>"+ax);
+        // }
+
+        //bài 2
+        // let n=prompt("enter daithua");
+        // let khoitao=1;
+        // for (let i=1;i<=n;i++)
+        // {
+        //     khoitao*=i;
+        // }
+        // alert(n+"! = "+khoitao);
+
+        //bài 3 - 01
+        // let n=prompt("nhap so dong");// khoi tao
+        // for (let i=1;i<=n;i++)
+        // {
+        //     for (let k=1; k<=i;k++)
+        //     {
+        //         document.write("*");
+        //     }
+        //     document.write("<br>");
+        // }
+
+
+        //bài 3 - 02
+        // let n=prompt("nhap so dong");// khoi tao
+        // for (let i=1;i<=n;i++)
+        // {
+        //     for (let k=n; k>=i;k--)
+        //     {
+        //         document.write("*");
+        //     }
+        //     document.write("<br>");
+        // }
+
+
+        // bài 3 - 03
+        // let n=prompt("nhap so dong");// khoi tao
+        // for (let i=1;i<=n;i++)
+        // {
+        //     for (let k=1; k<=i;k++)
+        //     {
+        //         if ()
+        //         document.write("*");
+        //     }
+        //     document.write("<br>");
+        // }
+        //
+
+        //bài 4
+        let m=prompt("enter m");
+        let n=prompt("enter n");
+        for (let i=1;i<=m;i++)
+        {
+            for (let j=1;j<=n;j++)
+            {
+                if (i==1 ||i==m||j==n|| j==1)
+                {
+                    document.write("*");
+                }
+                else
+                {
+                    document.write("\t&nbsp; ");
+                }
+            }
+            document.write("<br>");
+        }
+    </script>
+
+</body>
+</html>
